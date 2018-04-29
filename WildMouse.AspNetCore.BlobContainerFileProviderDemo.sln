@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WildMouse.Extensions.FileProviders", "WildMouse.Extensions.FileProviders\WildMouse.Extensions.FileProviders.csproj", "{1AF9E522-39A1-4D6A-BA7A-B160C127A46E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WildMouse.Unearth.FileProviderDemo", "WildMouse.Unearth.FileProviderDemo\WildMouse.Unearth.FileProviderDemo.csproj", "{BD2EF2FE-6626-458B-A591-DD67B37F92AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C36EB013-6CCA-465C-9FBD-2C03D9054A26}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF9E522-39A1-4D6A-BA7A-B160C127A46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF9E522-39A1-4D6A-BA7A-B160C127A46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF9E522-39A1-4D6A-BA7A-B160C127A46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF9E522-39A1-4D6A-BA7A-B160C127A46E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2EF2FE-6626-458B-A591-DD67B37F92AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2EF2FE-6626-458B-A591-DD67B37F92AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2EF2FE-6626-458B-A591-DD67B37F92AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2EF2FE-6626-458B-A591-DD67B37F92AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEC4ADBE-3E9C-49BF-9DC0-C78C2985F319}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Custom FileProvider Demo";
+}
+
+<div class="container">
+    <div class="row" style="padding-top: 45px">
+        <div class="col-lg-8 col-md-10 col-sm-12">
+            <div class="clearfix"></div>
+            <h2>Serves files from an Azure Blob Container</h2>
+            <h3>Why??? See: <a href="About">About</a></h3>
+            <p>
+                <table id="files">
+                    @foreach (var file in Model.Files)
+                    {
+                        <tr><td><a href="~/Documents/@file.Name" target="_blank">@file.Name</a></td></tr>
+                    }
+                </table>
+            </p>
+        </div>
+    </div>
+</div>
