@@ -10,11 +10,13 @@
             <div class="clearfix"></div>
             <h2>Serves files from an Azure Blob Container</h2>
             <h3>Why??? See: <a href="About">About</a></h3>
+            <br />
+            <h4>Links to files seemingly in Documents folder (but actually in a blob container):</h4>
             <p>
                 <table id="files">
                     @foreach (var file in Model.Files)
                     {
-                        <tr><td><a href="~/Documents/@file.Name" target="_blank">@file.Name</a></td></tr>
+                        <tr><td><h4><a href="~/Documents/@file.Name" target="_blank">@file.Name</a></h4></td></tr>
                     }
                 </table>
             </p>

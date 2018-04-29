@@ -16,8 +16,8 @@
                 (such as SharePoint Online or OneDrive or DropBox).
             </p>
             <p>
-                Unearth allows users to view many different filetypes on any browser. I found a nice HTML5/Javascript
-                PDF Viewer, however it only lets you view static files served from it's host. "SAD". I didn't want to have
+                Unearth allows users to view many different filetypes on any browser, so we need our own viewers. I found a nice HTML5/Javascript
+                PDF Viewer, however it only lets you view files served from it's host. "SAD". I didn't want to have
                 to cache viewed files in the website, or manage the cache and anyway 
                 <b>
                     storage in Azure Service Plans is limited
@@ -29,12 +29,12 @@
                 for me. I can have website folders that are actually Azure Blob Containers amongst other things, which is what this demo shows.
             </p>
             <p>
-                There are a number of examples of how to build a custom FileProvider that are better than this one. I cut corners, ignored
-                concerns, but I did it for a reason: to make the simplest possible sample. This ain't production code but it will point the way.
+                Some concerns are ignored by this code such as change detection, paging large result sets and efficient use of REST calls, but I
+                did it this way for a reason: to make the simplest possible sample. This ain't production code but it will point the way.
             </p>
             <p>
-            Source code in github: <a href="https://github.com/endintiers/ASPNetCore-FileProvider-WMBlobContainerProvider">ASPNetCore-FileProvider-WMBlobContainerProvider</a>
-            and you can find a walkthrough <a href="https://github.com/endintiers/SignalR-AspNetCore-ProgressDemo/blob/master/AsyncPOST.md">here</a>.
+            Source code in github: <a href="https://github.com/endintiers/ASPNetCore-FileProvider-WMBlobContainerProvider" target="_blank">ASPNetCore-FileProvider-WMBlobContainerProvider</a>
+            and you can find a <a href="https://github.com/endintiers/ASPNetCore-FileProvider-WMBlobContainerProvider/blob/master/WalkThrough.md" target="_blank">walkthrough here</a>.
             </p>
         </div>
     </div>
