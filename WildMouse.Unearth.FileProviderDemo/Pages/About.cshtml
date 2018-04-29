@@ -1,7 +1,7 @@
 ﻿@page
 @model AboutModel
 @{
-    ViewData["Title"] = "About FileProviders";
+    ViewData["Title"] = "About Custom FileProviders";
 }
 
 <div class="container">
@@ -18,10 +18,10 @@
             <p>
                 Unearth allows users to view many different filetypes on any browser. I found a nice HTML5/Javascript
                 PDF Viewer, however it only lets you view static files served from it's host. "SAD". I didn't want to have
-                to cache viewed files in the website, or manage the cache and anyway <b>
-                    storage in Azure Service Plans is
-                    limited
-                </b>.
+                to cache viewed files in the website, or manage the cache and anyway 
+                <b>
+                    storage in Azure Service Plans is limited
+                </b> (this is a free one - so to 1GB).
             </p>
             <p>
                 BUT: ASP.NET Core! (awesome). <a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/file-providers?view=aspnetcore-2.1" target="_blank">FileProviders</a> (cool).
